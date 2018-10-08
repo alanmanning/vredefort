@@ -49,3 +49,8 @@ Can now install stuff, it's all stored in ~/Envs (good for dropbox, that's not b
 Useful commands:
 lssitpackages - see what packages are installed in the virtualenv
 workon XXX - switch to XXX env
+
+
+
+# Django
+
