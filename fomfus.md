@@ -1,13 +1,19 @@
-#############################
-########Ensure default python version is python3
-#############################
+# Linux
+
+## Ensure default python version is python3
 (https://linuxconfig.org/how-to-change-default-python-version-on-debian-9-stretch-linux)
 
+Check if you need to do this. From command line:
+```bash
 python --version
-	-if python3 then you're done
+```
+ * if python3 then you're done
 
+See if there are any current alternatives:
+```bash
 sudo update-alternatives --list python
-	-Will probably say no alternatives for python
+```
+Will probably say no alternatives for python
 
 list all available options:
 ls /usr/bin/python*
