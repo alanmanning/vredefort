@@ -117,7 +117,14 @@ make altinstall
 
 make altinstall prevents this version of python from integrating itself into the OS and screwing up existing Python versions.
 
+Upgrade pip system-wide for this specific version
+```bash
+sudo /usr/local/bin/pip3.6 install --upgrade pip
+```
+Everything else should be done in a virtualenv
+
 ### Configure a virtualenv to run a precise version of python
+(https://stackoverflow.com/questions/1534210/use-different-python-version-with-virtualenv)
 
 ```bash
 mkvirtualenv --python=/usr/local/bin/python3.6 web-devel
